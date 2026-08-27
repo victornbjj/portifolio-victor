@@ -1,0 +1,76 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+ background-color: black;
+ height: 100vh;
+}
+.interface{
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+/* Estilo cabeçalho */
+.logo img{
+  height: 50px;
+  width: auto;
+  display: flex;
+}
+header{
+  padding: 30px 4%;
+
+}
+header >.interface{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+header a{
+  color: rgb(241, 53, 53);
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  text-align: center;
+  
+}
+header a:hover{
+  color: whitesmoke;
+  transform: scale(1.02);
+  font-size: 20px;
+
+}
+header nav ul{
+  list-style-type: none;
+  margin-left: 80px;
+}
+header nav ul li{
+  display: inline-block;
+  padding: 0 40px;
+}
+header .btn-contato a button{
+ padding: 10px 40px; 
+ font-size: 18px;
+ font-weight: 600;
+ background-color: red;
+ border: 0;
+ border-radius: 30px;
+ cursor: pointer;
+}
+.sobre{
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.sobre h1{
+  margin-top: 100px;
+  padding:50px 10px ;
+}
+.sobre p{
+  margin-top: 50px;
+  color: red;
+}
