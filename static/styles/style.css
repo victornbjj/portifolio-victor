@@ -1,77 +1,136 @@
-*{
- margin: 0;
- padding: 0;
- box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Google Sans Flex", sans-serif;
 }
-body{
- background-color: black;
- height: 100vh;
+body {
+  background-color: black;
+  height: 100vh;
 }
-.interface{
+
+.interface {
   max-width: 1280px;
   margin: 0 auto;
-  margin-bottom: 50px;
-}
-/* Estilo cabeçalho */
-.logo img{
-  height: 50px;
-  width: auto;
-  display: flex;
-}
-header{
-  padding: 30px 4%;
 
 }
-header >.interface{
+.flex{
+  display: flex;
+}
+main{
+  background-color: ;
+}
+
+/* Estilo cabeçalho */
+.logo img {
+  margin-top: 10px;
+  height: 55px;
+  width: auto;
+  display: flex;
+
+}
+
+header {
+  padding: 10px 0;
+
+}
+
+header>.interface {
+  width: 95%;
+  max-width: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
-}
-header a{
-  color: rgb(241, 53, 53);
-  text-decoration: none;
-  font-family: 'Times New Roman', Times, serif;
-  display: inline-block;
-  text-align: center;
-  font-size: 20px;
-  
-}
-header a:hover{
-  color: whitesmoke;
-  transform: scale(1.05);
-  font-family: 30px;
 
 }
-header nav ul{
-  list-style-type: none;
-  margin-left: 80px;
+
+
+header nav ul {
+  display: flex;
+  justify-content: center;
 }
-header nav ul li{
+
+header a {
+  color: rgb(241, 53, 53);
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  transition: 0.5;
+  margin-left: 40px;
+  
+
+
+}
+
+header a:hover {
+  color: whitesmoke;
+  transform: scale(1.05);
+
+}
+
+header nav ul li {
   display: inline-block;
   padding: 0 40px;
 }
-header .btn-contato a button{
- padding: 10px 40px; 
- font-size: 18px;
- font-weight: 600;
- background-color: red;
- border: 0;
- border-radius: 30px;
- cursor: pointer;
+
+.btn-contato a button {
+  padding: 10px 40px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: rgb(255, 255, 255);
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.2s;
 }
-.sobre{
-  color: white;
-  display: flex;
+
+.btn-contato a button:hover {
+  box-shadow: 0px 0px 8px red;
+  transform: scale(1.01);
+
+}
+/* estilo topo  */
+section.topo{
+  padding: px 4%;
+}
+section.topo.flex{
+  align-items: center;
   justify-content: center;
-  text-align: center;
-  flex-direction: column;
+  gap: 40px;
 }
-.sobre h1{
+.topo h1{
   margin-top: 100px;
-  padding:50px 10px ;
+  margin-bottom: 50px;
+  color: white;
+  font-size: 35px;
 }
-.sobre p{
-  margin-top: 50px;
+.topo .txt-topo-site h1 span{
   color: red;
+  font-size: 52px;
+  text-align: center;
+}
+
+.topo .txt-topo-site p{
+  color:  wheat;
+  font-size: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.topo .btn-contato a button{
+  text-align: center;
+  margin-left: 200px;
+}
+.topo .img-topo img{
+  height: 90%;
+  position: relative;
+  animation: fluter 2s ease-in-out infinite alternate;
+
+}
+@keyframes fluter {
+  0%{
+    top: 0%;
+  }
+  100%{
+    top: 30px;
+  }
 }
