@@ -12,13 +12,12 @@ body {
 .interface {
   max-width: 1280px;
   margin: 0 auto;
-
 }
-.flex{
+.flex {
   display: flex;
 }
-main{
-  background-color: ;
+main {
+  background-color:;
 }
 
 /* Estilo cabeçalho */
@@ -27,23 +26,19 @@ main{
   height: 55px;
   width: auto;
   display: flex;
-
 }
 
 header {
   padding: 10px 0;
-
 }
 
-header>.interface {
+header > .interface {
   width: 95%;
   max-width: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
-
 
 header nav ul {
   display: flex;
@@ -55,17 +50,13 @@ header a {
   text-decoration: none;
   display: inline-block;
   font-size: 25px;
-  transition: 0.5;
+  transition: 0.2s;
   margin-left: 40px;
-  
-
-
 }
 
 header a:hover {
   color: whitesmoke;
   transform: scale(1.05);
-
 }
 
 header nav ul li {
@@ -83,54 +74,105 @@ header nav ul li {
   cursor: pointer;
   transition: 0.2s;
 }
+h2.titulo {
+  font-size: 40px;
+  text-align: center;
+}
+h2.titulo span {
+  color: red;
+}
 
 .btn-contato a button:hover {
   box-shadow: 0px 0px 8px red;
   transform: scale(1.01);
-
 }
 /* estilo topo  */
-section.topo{
-  padding: px 4%;
+section.topo {
+  padding: 2px;
 }
-section.topo.flex{
+section.topo.flex {
   align-items: center;
   justify-content: center;
   gap: 40px;
 }
-.topo h1{
+.topo h1 {
   margin-top: 100px;
+  text-align: center;
   margin-bottom: 50px;
   color: white;
   font-size: 35px;
 }
-.topo .txt-topo-site h1 span{
+
+.topo .txt-topo-site h1 span {
   color: red;
   font-size: 52px;
   text-align: center;
 }
 
-.topo .txt-topo-site p{
-  color:  wheat;
+.topo .txt-topo-site p {
+  color: wheat;
   font-size: 20px;
   margin-bottom: 40px;
   text-align: center;
 }
-.topo .btn-contato a button{
-  text-align: center;
-  margin-left: 200px;
+.topo .btn-contato {
+  display: flex;
+  justify-content: center;
 }
-.topo .img-topo img{
+.topo .img-topo img {
   height: 90%;
   position: relative;
   animation: fluter 2s ease-in-out infinite alternate;
-
 }
 @keyframes fluter {
-  0%{
+  0% {
     top: 0%;
   }
-  100%{
+  100% {
     top: 30px;
   }
+}
+/* ESPECIALIDADE */
+section.especialidades {
+  padding: 30% 4px;
+}
+section.especialidades .flex{
+  gap: 50px;
+}
+.especialidades .especialidades-box {
+  flex: 1;
+  text-align: center;
+  align-items: center;
+  margin-top: 45px;
+  padding: 45px;
+  border: 2px solid red;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.especialidades .especialidades-box:hover{
+  transform: scale(1.07);
+  box-shadow:  0px 0px 8px rgba(255, 255, 255, 0.493);
+}
+
+.especialidades .especialidades-box p {
+  font-size: 20px;
+}
+.especialidades .especialidades-box h3 {
+  font-size: 30px;
+  margin: 15px 0;
+}
+.especialidades .especialidades-box i {
+  font-size: 90px;
+  color: red;
+}
+/* sobre */
+section.sobre {
+  padding: 40px 4%;
+}
+section.sobre .flex{
+  align-items: center;
+  gap: 60px;
+}
+.sobre .txt-sobre{
+  color: wheat;
 }
