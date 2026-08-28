@@ -135,6 +135,7 @@ section.topo.flex {
 /* ESPECIALIDADE */
 section.especialidades {
   padding: 30% 4px;
+  color: wheat;
 }
 section.especialidades .flex{
   gap: 50px;
@@ -175,4 +176,10 @@ section.sobre .flex{
 }
 .sobre .txt-sobre{
   color: wheat;
+  text-align: center;
+}
+.sobre .txt-sobre h2{
+  padding: 40px 0;
+  font-size: 45px;
+  color: red;
 }
