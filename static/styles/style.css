@@ -16,14 +16,10 @@ body {
 .flex {
   display: flex;
 }
-main {
-  background-color:;
-}
-
 /* Estilo cabeçalho */
 .logo img {
   margin-top: 10px;
-  height: 55px;
+  height: 60px;
   width: auto;
   display: flex;
 }
@@ -50,7 +46,7 @@ header a {
   text-decoration: none;
   display: inline-block;
   font-size: 25px;
-  transition: 0.2s;
+  transition: 0.4s;
   margin-left: 40px;
 }
 
@@ -68,7 +64,7 @@ header nav ul li {
   padding: 10px 40px;
   font-size: 20px;
   font-weight: 600;
-  background-color: rgb(255, 255, 255);
+  background-color: whitesmoke;
   border: 0;
   border-radius: 30px;
   cursor: pointer;
@@ -88,7 +84,7 @@ h2.titulo span {
 }
 /* estilo topo  */
 section.topo {
-  padding: 2px;
+  padding: 100px;
 }
 section.topo.flex {
   align-items: center;
@@ -99,18 +95,18 @@ section.topo.flex {
   margin-top: 100px;
   text-align: center;
   margin-bottom: 50px;
-  color: white;
+  color: aliceblue;
   font-size: 35px;
 }
 
 .topo .txt-topo-site h1 span {
-  color: red;
+  color: white;
   font-size: 52px;
   text-align: center;
 }
 
 .topo .txt-topo-site p {
-  color: wheat;
+  color: aliceblue;
   font-size: 20px;
   margin-bottom: 40px;
   text-align: center;
@@ -133,9 +129,13 @@ section.topo.flex {
   }
 }
 /* ESPECIALIDADE */
+
 section.especialidades {
   padding: 30% 4px;
-  color: wheat;
+  color: rgb(255, 243, 220);
+}
+section.especialidades h2{
+  color: white;
 }
 section.especialidades .flex{
   gap: 50px;
@@ -161,6 +161,7 @@ section.especialidades .flex{
 .especialidades .especialidades-box h3 {
   font-size: 30px;
   margin: 15px 0;
+  color: aliceblue;
 }
 .especialidades .especialidades-box i {
   font-size: 90px;
@@ -168,18 +169,92 @@ section.especialidades .flex{
 }
 /* sobre */
 section.sobre {
-  padding: 20px 4%;
+  padding: 10px 4%;
 }
 section.sobre .flex{
   align-items: center;
   gap: 60px;
 }
+section.sobre .flex img{
+  width: 450px;
+  height: auto;
+}
+.sobre .social a i{
+  font-size: 30px;
+  color: white;
+}
+.social button {
+  width: 60px;
+  height: 60px;
+  margin: 30px 20px ;
+  border: none;
+  background-color: red;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.social a button:hover {
+  box-shadow: 0px 0px 8px whitesmoke;
+  transform: scale(1.01);
+}
 .sobre .txt-sobre{
-  color: wheat;
+  color: aliceblue;
+
   text-align: center;
 }
 .sobre .txt-sobre h2{
   padding: 40px 0;
   font-size: 45px;
   color: red;
+}
+.sobre .txt-sobre h2 span{
+  color: rgb(254, 254, 254);
+  display: block;
+  line-height: 40px;
+}
+.sobre .txt-sobre p{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 15px;
+}
+/* tecnologias */
+section.tecnologias {
+  padding: 20% 4px;
+  color:aliceblue;
+}
+section.tecnologias h2{
+  color: white;
+  font-size: 45px;
+}
+section.tecnologias .flex{
+  gap: 40px;
+}
+.tecnologias .especialidades-box{
+    flex: 1;
+  text-align: center;
+  align-items: center;
+  margin-top: 45px;
+  padding: 45px;
+  border: 2px solid rgb(255, 0, 0);
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.tecnologias .especialidades-box:hover{
+  transform: scale(1.07);
+  box-shadow:  0px 0px 8px white;
+}
+.tecnologias .especialidades-box p {
+  font-size: 20px;
+}
+.tecnologias .especialidades-box h3 {
+  font-size: 25px;
+  margin: 15px 0;
+  color: aliceblue;
+}
+.tecnologias .especialidades-box i {
+  font-size: 55px;
+  color: red;
+}
+.tecnologias .titulo h2{
+  font-size: 90px;
 }
