@@ -1,207 +1,527 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portifolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Oswald:wght@200..700&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="static/styles/style.css" />
+  </head>
 
-  <link rel="stylesheet" href="static/styles/style.css" />
-</head>
-
-<body>
-  <header>
-    <div class="interface">
-      <div class="logo">
-        <a href="#">
-          <img src="static/img/logo.jpg" alt="logo" />
-        </a>
-      </div>
-      <!--  <logo> -->
-      <nav class="menu-desktop">
-        <ul>
-          <li><a href="">Especialidades</a></li>
-          <li><a href="">Sobre</a></li>
-          <li><a href="">Tecnologias</a></li>
-          <li><a href="">Projetos</a></li>
-        </ul>
-      </nav>
-      <!--  menu-desktop -->
-      <div class="btn-contato">
-        <a href="">
-          <button>Contato</button>
-        </a>
-      </div>
-      <!--  menu-desktop -->
-    </div>
-  </header>
-  <main>
-    <section class="topo">
+  <body>
+    <header>
       <div class="interface">
-        <div class="flex">
-          <div class="txt-topo-site">
-            <h1>
-              TRANSFORMANDO IDEIAS EM REALIDADE DIGITAL DE FORMA
-              EFICIENTE<span>.</span>
-            </h1>
-            <p>
-              Sou engenheiro de software e curto muito a parte de transformar
-              uma ideia em algo que realmente funciona. Hoje meu foco é
-              principalmente Java e Spring Boot, criando APIs, trabalhando com
-              bancos de dados e desenvolvendo aplicações de forma organizada e
-              segura. Além do desenvolvimento, também venho explorando
-              bastante Docker, CI/CD, Linux e AWS, colocando esses
-              conhecimentos em prática nos meus projetos. Gosto de aprender
-              fazendo, quebrar a cabeça para resolver problemas e entender
-              como as coisas funcionam por trás do código. Meu objetivo é
-              continuar evoluindo e construir soluções cada vez melhores.
-            </p>
+        <div class="logo">
+          <a href="#">
+            <img src="static/img/logo.jpg" alt="logo" />
+          </a>
+        </div>
+        <!--  <logo> -->
+        <nav class="menu-desktop">
+          <ul>
+            <li><a href="">Especialidades</a></li>
+            <li><a href="">Sobre</a></li>
+            <li><a href="">Tecnologias</a></li>
+            <li><a href="">Projetos</a></li>
+          </ul>
+        </nav>
+        <!--  menu-desktop -->
+        <div class="btn-contato">
+          <a href="">
+            <button>Contato</button>
+          </a>
+        </div>
+        <!--  menu-desktop -->
+      </div>
+    </header>
+    <main>
+      <section class="topo">
+        <div class="interface">
+          <div class="flex">
+            <div class="txt-topo-site">
+              <h1>
+                TRANSFORMANDO IDEIAS EM REALIDADE DIGITAL DE FORMA
+                EFICIENTE<span>.</span>
+              </h1>
+              <p>
+                Sou engenheiro de software e curto muito a parte de transformar
+                uma ideia em algo que realmente funciona. Hoje meu foco é
+                principalmente Java e Spring Boot, criando APIs, trabalhando com
+                bancos de dados e desenvolvendo aplicações de forma organizada e
+                segura. Além do desenvolvimento, também venho explorando
+                bastante Docker, CI/CD, Linux e AWS, colocando esses
+                conhecimentos em prática nos meus projetos. Gosto de aprender
+                fazendo, quebrar a cabeça para resolver problemas e entender
+                como as coisas funcionam por trás do código. Meu objetivo é
+                continuar evoluindo e construir soluções cada vez melhores.
+              </p>
 
-            <div class="btn-contato">
-              <a href="">
-                <button>Entre em contato</button>
-              </a>
+              <div class="btn-contato">
+                <a href="">
+                  <button>Entre em contato</button>
+                </a>
+              </div>
             </div>
-          </div> <!-- topo-ste -->
+            <!-- topo-ste -->
 
-          <div class="img-topo">
-            <img src="static/img/person.png" alt="" />
-          </div>
-          <!-- Img topo-->
-        </div>
-        <!--flex-->
-      </div>
-      <!-- interface--->
-    </section><!-- topo do site--->
-
-    <section class="especialidades">
-
-      <div class="interface">
-
-        <h2 class="titulo">MINHAS <span>ESPECIALIDADES </span></h2>
-
-        <div class="flex">
-          <div class="especialidades-box">
-            <i class="bi bi-braces"></i>
-            <h3>APIs & Backend</h3> <!-- especialidades-box -->
-            <p>
-              Desenvolvimento de APIs REST com foco em segurança, integração e
-              arquitetura de aplicações.
-            </p>
-          </div> <!-- especialidades-box -->
-
-          <div class="especialidades-box"> <!-- especialidades-box -->
-            <i class="bi bi-cloud-fog"></i>
-            <h3>DevOps & Cloud</h3>
-            <p>
-              Automação, containers e CI/CD para deploy e gerenciamento de
-              aplicações em cloud.
-            </p>
-          </div> <!-- especialidades-box -->
-
-          <div class="especialidades-box">
-            <i class="bi bi-database"></i>
-            <h3>Databases & Data</h3>
-            <p>
-              Modelagem e gerenciamento de bancos relacionais, SQL, consultas
-              e persistência de dados.
-            </p>
-          </div> <!-- especialidades-box -->
-
-        </div> <!--flex-->
-
-      </div><!--interface-->
-
-    </section> <!--especialidades-->
-
-    <section class="sobre">
-      <div class="interface">
-        <div class="flex">
-          <div>
-            <img src="static/img/foto- sobre.png" alt="">
-          </div>
-          <div class="txt-sobre">
-            <h2>MUITO PRAZER SOU, <span>JOAO VICTOR.</span></h2>
-            <p>
-              Sou natural de João Pessoa, Paraíba e apaixonado por tecnologia desde de pequeno, quando comecei a
-              explorar o funcionamento dos computadores, especialmente o hardware e as CPUs com montagens e reparos.
-              Essa
-              curiosidade inicial foi o
-              ponto de partida para minha relação com a área de TI.
-            </p>
-            <p>
-              Atualmente, estou em constante evolução, aprimorando conhecimentos já adquiridos e aprendendo novas
-              linguagens, tecnologias e conceitos fundamentais para o mercado de TI. Tenho perfil proativo, gosto de
-              aprender na prática e sou movido pelo aprendizado contínuo.
-              Meu objetivo é crescer profissionalmente na área de tecnologia, contribuindo com soluções eficientes e
-              mantendo viva a paixão que despertou ainda na infância.
-            </p>
-            <div class="social">
-              <a href="https://github.com/victornbjj" target="_blank"><button><i class="bi bi-github"></i></button></a>
-              <a href="https://www.linkedin.com/in/victornascidev/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
-              <a href="https://www.instagram.com/victor.nasci_.dev/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+            <div class="img-topo">
+              <img src="static/img/person.png" alt="" />
             </div>
-          </div> <!--txt-sobre -->>
+            <!-- Img topo-->
+          </div>
+          <!--flex-->
         </div>
-      </div> <!--interface -->
-    </section><!-- sobre -->
+        <!-- interface--->
+      </section>
+      <!-- topo do site--->
 
-    <section class="tecnologias">
-      <div class="interface">
-        <h2 class="titulo">TEC<span>NOLOGIAS</span></h2>
-        <div class="flex">
+      <section class="especialidades">
+        <div class="interface">
+          <h2 class="titulo">MINHAS <span>ESPECIALIDADES </span></h2>
 
-          <div class="especialidades-box">
-            <i class="bi bi-diagram-2"></i>
-            <h3>Backend</h3>
+          <div class="flex">
+            <div class="especialidades-box">
+              <i class="bi bi-braces"></i>
+              <h3>APIs & Backend</h3>
+              <!-- especialidades-box -->
+              <p>
+                Desenvolvimento de APIs REST com foco em segurança, integração e
+                arquitetura de aplicações.
+              </p>
+            </div>
+            <!-- especialidades-box -->
 
-            <p>Java</p>
-            <p>Python</p>
-            <p>Spring Boot</p>
-            <p>FastAPI</p>
-            <p>Flask</p>
+            <div class="especialidades-box">
+              <!-- especialidades-box -->
+              <i class="bi bi-cloud-fog"></i>
+              <h3>DevOps & Cloud</h3>
+              <p>
+                Automação, containers e CI/CD para deploy e gerenciamento de
+                aplicações em cloud.
+              </p>
+            </div>
+            <!-- especialidades-box -->
+
+            <div class="especialidades-box">
+              <i class="bi bi-database"></i>
+              <h3>Databases & Data</h3>
+              <p>
+                Modelagem e gerenciamento de bancos relacionais, SQL, consultas
+                e persistência de dados.
+              </p>
+            </div>
+            <!-- especialidades-box -->
           </div>
-
-          <div class="especialidades-box">
-            <i class="bi bi-wordpress"></i>
-            <h3>Front</h3>
-
-            <p>HTML5 & BootStrap</p>
-            <p>CSS Tailwind</p>
-            <p>JavaScrip</p>
-            <p>TypeScript</p>
-            <p>React</p>
-          </div>
-
-          <div class="especialidades-box">
-            <i class="bi bi-database-check"></i>
-            <h3>Data & Databases</h3>
-            <p>PostgreSQL</p>
-            <p>MySQL</p>
-            <p>SQLServer</p>
-          </div>
-
-          <div class="especialidades-box">
-            <i class="bi bi-cloud-fog"></i>
-            <h3>DevOps & Cloud</h3>
-            <p>GitLab CI & CD</p>
-            <p>Docker</p>
-            <p>Linux</p>
-            <p>AWS EC2</p>
-          </div>
-
-
+          <!--flex-->
         </div>
-      </div>
-    </section> <!--tecnologia -->
+        <!--interface-->
+      </section>
+      <!--especialidades-->
 
-  </main>
-</body>
+      <section class="sobre">
+        <div class="interface">
+          <div class="flex">
+            <div>
+              <img src="static/img/foto- sobre.png" alt="" />
+            </div>
+            <div class="txt-sobre">
+              <h2>MUITO PRAZER SOU, <span>JOAO VICTOR.</span></h2>
+              <p>
+                Sou natural de João Pessoa, Paraíba e apaixonado por tecnologia
+                desde de pequeno, quando comecei a explorar o funcionamento dos
+                computadores, especialmente o hardware e as CPUs com montagens e
+                reparos. Essa curiosidade inicial foi o ponto de partida para
+                minha relação com a área de TI.
+              </p>
+              <p>
+                Atualmente, estou em constante evolução, aprimorando
+                conhecimentos já adquiridos e aprendendo novas linguagens,
+                tecnologias e conceitos fundamentais para o mercado de TI. Tenho
+                perfil proativo, gosto de aprender na prática e sou movido pelo
+                aprendizado contínuo. Meu objetivo é crescer profissionalmente
+                na área de tecnologia, contribuindo com soluções eficientes e
+                mantendo viva a paixão que despertou ainda na infância.
+              </p>
+              <div class="social">
+                <a href="https://github.com/victornbjj" target="_blank"
+                  ><button><i class="bi bi-github"></i></button
+                ></a>
+                <a
+                  href="https://www.linkedin.com/in/victornascidev/"
+                  target="_blank"
+                  ><button><i class="bi bi-linkedin"></i></button
+                ></a>
+                <a
+                  href="https://www.instagram.com/victor.nasci_.dev/"
+                  target="_blank"
+                  ><button><i class="bi bi-instagram"></i></button
+                ></a>
+              </div>
+            </div>
+            <!--txt-sobre -->>
+          </div>
+        </div>
+        <!--interface -->
+      </section>
+      <!-- sobre -->
 
+      <section class="tecnologias">
+        <div class="interface">
+          <h2 class="titulo">TEC<span>NOLOGIAS</span></h2>
+          <div class="flex">
+            <div class="especialidades-box">
+              <i class="bi bi-diagram-2"></i>
+              <h3>Backend</h3>
+
+              <p>Java</p>
+              <p>Python</p>
+              <p>Spring Boot</p>
+              <p>FastAPI</p>
+              <p>Flask</p>
+            </div>
+
+            <div class="especialidades-box">
+              <i class="bi bi-wordpress"></i>
+              <h3>Front</h3>
+
+              <p>HTML5 & BootStrap</p>
+              <p>CSS Tailwind</p>
+              <p>JavaScrip</p>
+              <p>TypeScript</p>
+              <p>React</p>
+            </div>
+
+            <div class="especialidades-box">
+              <i class="bi bi-database-check"></i>
+              <h3>Data & Databases</h3>
+              <p>PostgreSQL</p>
+              <p>MySQL</p>
+              <p>SQLServer</p>
+            </div>
+
+            <div class="especialidades-box">
+              <i class="bi bi-cloud-fog"></i>
+              <h3>DevOps & Cloud</h3>
+              <p>GitLab CI & CD</p>
+              <p>Docker</p>
+              <p>Linux</p>
+              <p>AWS EC2</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--tecnologia -->
+
+      <section class="projetos">
+        <div class="interface">
+          <h2 class="titulo">PROJETOS</h2>
+
+          <div class="categoria">
+            <h2 class="titulo-sections">FRONTEND</h2>
+
+            <div class="projeto-grid">
+              <div class="projeto-card">
+                <h3>LC Construtora</h3>
+                <div class="projeto-box projeto-front">
+                  <img
+                    class="projeto-image"
+                    src="static/img/projetos-img/lc/front-lc.png"
+                    alt="LC Construtora"
+                  />
+                  <div class="projeto-overlay">
+                    <div class="projeto-links">
+                      <a
+                        href="https://github.com/victornbjj/LC-CONSTRUTORA"
+                        target="_blank"
+                        rel="noreferrer"
+                        ><button><i class="bi bi-github"></i></button
+                      ></a>
+                      <a
+                        href="https://lc-constutora-5.onrender.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                        ><button><i class="bi bi-display"></i></button
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="projeto-info">
+                  <p class="projeto-descricao">
+                    Site institucional moderno para uma construtora, com layout
+                    limpo, foco em conversão e apresentação de serviços.
+                  </p>
+                  <div class="projeto-stacks">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JS</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="projeto-card">
+                <h3>Relógio Digital</h3>
+                <div class="projeto-box projeto-front">
+                  <img
+                    class="projeto-image"
+                    src="static/img/projetos-img/relogio/reologio.png"
+                    alt="Relógio Digital"
+                  />
+                  <div class="projeto-overlay">
+                    <div class="projeto-links">
+                      <a href="#" target="_blank" rel="noreferrer"
+                        ><button><i class="bi bi-github"></i></button
+                      ></a>
+                      <a href="#" target="_blank" rel="noreferrer"
+                        ><button><i class="bi bi-display"></i></button
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="projeto-info">
+                  <p class="projeto-descricao">
+                    Relógio em tempo real com interface limpa e funcional,
+                    explorando dinamicidade e layout responsivo.
+                  </p>
+                  <div class="projeto-stacks">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JS</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="projeto-card">
+                <h3>Login Page</h3>
+                <div class="projeto-box projeto-front">
+                  <img
+                    class="projeto-image"
+                    src="static/img/projetos-img/login-page/login-page.png"
+                    alt="Login Page"
+                  />
+                  <div class="projeto-overlay">
+                    <div class="projeto-links">
+                      <a href="#" target="_blank" rel="noreferrer"
+                        ><button><i class="bi bi-github"></i></button
+                      ></a>
+                      <a href="#" target="_blank" rel="noreferrer"
+                        ><button><i class="bi bi-display"></i></button
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="projeto-info">
+                  <p class="projeto-descricao">
+                    Tela de autenticação com foco visual em usabilidade,
+                    identidade e experiência de login moderna.
+                  </p>
+                  <div class="projeto-stacks">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JS</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="categoria">
+            <h2 class="titulo-sections">BACKEND</h2>
+
+            <div class="projeto-grid">
+              <div class="projeto-card">
+                <h3>API de Gestão</h3>
+                <div class="projeto-box projeto-backend">
+                  <div class="projeto-icon">
+                    <i class="bi bi-person-workspace"></i>
+                  </div>
+                  <div class="projeto-overlay">
+                    <div class="projeto-links">
+                      <a href="#" target="_blank" rel="noreferrer"
+                        ><button><i class="bi bi-github"></i></button
+                      ></a>
+                      <a href="#" target="_blank" rel="noreferrer"
+                        ><button><i class="bi bi-display"></i></button
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="projeto-info">
+                  <p class="projeto-descricao">
+                    API para gestão de usuários, cadastros e fluxos internos com
+                    arquitetura organizada e escalável.
+                  </p>
+                  <div class="projeto-stacks">
+                    <span>Java</span>
+                    <span>Spring</span>
+                    <span>MySQL</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="projeto-card">
+                <h3>Sistema de Pedidos</h3>
+                <div class="projeto-box projeto-backend">
+                  <div class="projeto-icon">
+                    <i class="bi bi-person-workspace"></i>
+                  </div>
+                  <div class="projeto-overlay">
+                    <div class="projeto-links">
+                      <a href="#" target="_blank" rel="noreferrer"
+                        ><button><i class="bi bi-github"></i></button
+                      ></a>
+                      <a href="#" target="_blank" rel="noreferrer"
+                        ><button><i class="bi bi-display"></i></button
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="projeto-info">
+                  <p class="projeto-descricao">
+                    Estrutura de negócios para pedidos, controle de status e
+                    logística de processamento interno.
+                  </p>
+                  <div class="projeto-stacks">
+                    <span>Java</span>
+                    <span>Spring</span>
+                    <span>Postgres</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="projeto-card">
+                <h3>Auth Service</h3>
+                <div class="projeto-box projeto-backend">
+                  <div class="projeto-icon">
+                    <i class="bi bi-person-workspace"></i>
+                  </div>
+                  <div class="projeto-overlay">
+                    <div class="projeto-links">
+                      <a href="#" target="_blank" rel="noreferrer"
+                        ><button><i class="bi bi-github"></i></button
+                      ></a>
+                      <a href="#" target="_blank" rel="noreferrer"
+                        ><button><i class="bi bi-display"></i></button
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="projeto-info">
+                  <p class="projeto-descricao">
+                    Serviço de autenticação com foco em segurança, tokens e
+                    regras de acesso para aplicações internas.
+                  </p>
+                  <div class="projeto-stacks">
+                    <span>Java</span>
+                    <span>JWT</span>
+                    <span>Security</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="projeto-card">
+                <h3>CRM</h3>
+                <div class="projeto-box projeto-backend">
+                  <div class="projeto-icon">
+                    <i class="bi bi-person-workspace"></i>
+                  </div>
+                  <div class="projeto-overlay">
+                    <div class="projeto-links">
+                      <a href="#" target="_blank" rel="noreferrer"
+                        ><button><i class="bi bi-github"></i></button
+                      ></a>
+                      <a href="#" target="_blank" rel="noreferrer"
+                        ><button><i class="bi bi-display"></i></button
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="projeto-info">
+                  <p class="projeto-descricao">
+                    Solução para relacionamento e gestão de clientes com
+                    processos de acompanhamento e organização de dados.
+                  </p>
+                  <div class="projeto-stacks">
+                    <span>Java</span>
+                    <span>API</span>
+                    <span>SQL</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="projeto-card">
+                <h3>Monitoramento</h3>
+                <div class="projeto-box projeto-backend">
+                  <div class="projeto-icon">
+                    <i class="bi bi-person-workspace"></i>
+                  </div>
+                  <div class="projeto-overlay">
+                    <div class="projeto-links">
+                      <a href="#" target="_blank" rel="noreferrer"
+                        ><button><i class="bi bi-github"></i></button
+                      ></a>
+                      <a href="#" target="_blank" rel="noreferrer"
+                        ><button><i class="bi bi-display"></i></button
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="projeto-info">
+                  <p class="projeto-descricao">
+                    Sistema focado em acompanhamento, alertas e visualização de
+                    dados para suporte operacional contínuo.
+                  </p>
+                  <div class="projeto-stacks">
+                    <span>Java</span>
+                    <span>Docker</span>
+                    <span>Logs</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contato">
+        <div class="interface">
+          <h2 class="titulo">Contato</h2>
+          <div class="flex">
+            <div class="txt-contato">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ex veritatis a, consequuntur nihil neque minus facilis temporibus dolorum non fugit, ducimus, dolores nostrum earum quidem repellendus dolor doloribus aperiam.</p>
+            </div>
+            <div class="espace-form flex">
+              <form class="form-column">
+                <h3 class="form-title">Entre em contato</h3>
+                <div>
+                  <input type="text" required placeholder="Nome" />
+                </div>
+                <div>
+                  <input type="text" required placeholder="Email" />
+                </div>
+                <div>
+                  <textarea id="message" rows="4" required class="" placeholder="Como podemos ajudar?"></textarea>
+                </div>
+                <div class="btn-contato">
+                <a href="">
+                  <button>Entre em contato</button>
+                </a>
+              </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer style=" text-align:center;  color: white; margin-top: 100px;"><p>Desevolvido por <a href="">João Victor Pereira</a><span> 2025.</span> Todos os direitos reservados</p></footer>
+  </body>
 </html>

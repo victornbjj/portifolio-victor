@@ -71,6 +71,7 @@ header nav ul li {
   transition: 0.2s;
 }
 h2.titulo {
+  color: aliceblue;
   font-size: 40px;
   text-align: center;
 }
@@ -134,10 +135,10 @@ section.especialidades {
   padding: 30% 4px;
   color: rgb(255, 243, 220);
 }
-section.especialidades h2{
+section.especialidades h2 {
   color: white;
 }
-section.especialidades .flex{
+section.especialidades .flex {
   gap: 50px;
 }
 .especialidades .especialidades-box {
@@ -150,9 +151,9 @@ section.especialidades .flex{
   border-radius: 20px;
   transition: 0.5s;
 }
-.especialidades .especialidades-box:hover{
+.especialidades .especialidades-box:hover {
   transform: scale(1.07);
-  box-shadow:  0px 0px 8px rgba(255, 255, 255, 0.493);
+  box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.493);
 }
 
 .especialidades .especialidades-box p {
@@ -171,22 +172,22 @@ section.especialidades .flex{
 section.sobre {
   padding: 10px 4%;
 }
-section.sobre .flex{
+section.sobre .flex {
   align-items: center;
   gap: 60px;
 }
-section.sobre .flex img{
+section.sobre .flex img {
   width: 450px;
   height: auto;
 }
-.sobre .social a i{
+.sobre .social a i {
   font-size: 30px;
   color: white;
 }
 .social button {
   width: 60px;
   height: 60px;
-  margin: 30px 20px ;
+  margin: 30px 20px;
   border: none;
   background-color: red;
   border-radius: 50%;
@@ -197,22 +198,22 @@ section.sobre .flex img{
   box-shadow: 0px 0px 8px whitesmoke;
   transform: scale(1.01);
 }
-.sobre .txt-sobre{
+.sobre .txt-sobre {
   color: aliceblue;
 
   text-align: center;
 }
-.sobre .txt-sobre h2{
+.sobre .txt-sobre h2 {
   padding: 40px 0;
   font-size: 45px;
   color: red;
 }
-.sobre .txt-sobre h2 span{
+.sobre .txt-sobre h2 span {
   color: rgb(254, 254, 254);
   display: block;
   line-height: 40px;
 }
-.sobre .txt-sobre p{
+.sobre .txt-sobre p {
   text-align: center;
   font-size: 20px;
   margin-top: 15px;
@@ -220,17 +221,17 @@ section.sobre .flex img{
 /* tecnologias */
 section.tecnologias {
   padding: 20% 4px;
-  color:aliceblue;
+  color: aliceblue;
 }
-section.tecnologias h2{
+section.tecnologias h2 {
   color: white;
   font-size: 45px;
 }
-section.tecnologias .flex{
+section.tecnologias .flex {
   gap: 40px;
 }
-.tecnologias .especialidades-box{
-    flex: 1;
+.tecnologias .especialidades-box {
+  flex: 1;
   text-align: center;
   align-items: center;
   margin-top: 45px;
@@ -239,9 +240,9 @@ section.tecnologias .flex{
   border-radius: 20px;
   transition: 0.5s;
 }
-.tecnologias .especialidades-box:hover{
+.tecnologias .especialidades-box:hover {
   transform: scale(1.07);
-  box-shadow:  0px 0px 8px white;
+  box-shadow: 0px 0px 8px white;
 }
 .tecnologias .especialidades-box p {
   font-size: 20px;
@@ -255,6 +256,268 @@ section.tecnologias .flex{
   font-size: 55px;
   color: red;
 }
-.tecnologias .titulo h2{
+.tecnologias .titulo h2 {
   font-size: 90px;
+}
+/* PROJETOS */
+
+section.projetos {
+  padding: 20% 4px;
+  color: aliceblue;
+}
+section.projetos h2 {
+  color: white;
+  margin-bottom: 60px;
+}
+
+.categoria {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.projetos .titulo-sections {
+  margin: 0 0 30px;
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.projeto-grid {
+  width: min(100%, 1100px);
+  display: grid;
+  grid-template-columns: repeat(3, minmax(220px, 1fr));
+  gap: 42px;
+  justify-items: center;
+  margin: 0 auto;
+}
+
+.projeto-card {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 100%;
+  align-items: center;
+}
+
+.projeto-card h3 {
+  margin: 0;
+  color: white;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.projeto-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 10px;
+}
+
+.projeto-descricao {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.projeto-stacks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.projeto-stacks span {
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: rgba(255, 0, 0, 0.12);
+  border: 1px solid rgba(255, 0, 0, 0.35);
+  color: #ffd9d9;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.projeto-box {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  border: solid 2px rgb(112, 3, 3);
+  border-radius: 22px 22px 42px 42px;
+  box-shadow:
+    0 0 0 1px rgba(255, 0, 0, 0.35),
+    0 10px 24px rgba(255, 0, 0, 0.15);
+  overflow: hidden;
+  background-color: #111;
+  transition: 0.5s;
+}
+
+.projeto-box:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.493);
+}
+
+.projeto-front {
+  position: relative;
+  background: #111;
+  overflow: hidden;
+}
+
+.projeto-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.projeto-backend {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 0, 0, 0.12),
+    rgba(255, 255, 255, 0.04)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projeto-icon {
+  font-size: 80px;
+  color: red;
+  opacity: 0.9;
+}
+
+.projeto-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.2) 45%,
+    transparent 80%
+  );
+  display: flex;
+  align-items: flex-end;
+  padding: 18px;
+}
+
+.projeto-links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+
+.projeto-links a button {
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.projeto-links a button:hover {
+  background-color: red;
+  box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.5);
+  transform: scale(1.05);
+}
+
+@media (max-width: 1024px) {
+  .projeto-grid {
+    grid-template-columns: repeat(2, minmax(220px, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .projeto-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/* form-contato */
+
+section.contato {
+  padding: 40px 4%;
+}
+section.contato .flex {
+  gap: 40px;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.contato .txt-contato {
+  width: 450px;
+  margin-right: 30px;
+}
+.contato .txt-contato p {
+  color: aliceblue;
+  text-align: left;
+}
+.contato .espace-form {
+  width: 450px;
+  background-color: #111;
+  border: solid 2px rgb(112, 3, 3);
+  border-radius: 22px;
+  box-shadow:
+    0 0 0 1px rgba(255, 0, 0, 0.35),
+    0 10px 24px rgba(255, 0, 0, 0.15);
+  padding: 30px 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contato .espace-form .form-column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.contato .espace-form .form-column h3 {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0 0 10px;
+  text-align: center;
+}
+
+.espace-form .form-column input,
+.espace-form .form-column textarea {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: whitesmoke;
+  color: #111;
+  border: 0;
+  border-radius: 30px;
+  outline: none;
+  font-family: inherit;
+}
+.espace-form .form-column textarea {
+  border-radius: 18px;
+  resize: none;
+}
+.espace-form .form-column input:focus,
+.espace-form .form-column textarea:focus {
+  box-shadow: 0 0 0 2px red;
+}
+.espace-form .btn-contato {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
